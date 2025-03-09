@@ -7,7 +7,7 @@ Ebben a feladatban egy farmon pásztorkutyák és juhok mozognak. A cél egy oly
 ## Alapfeladat (10 pont):
 A következő osztályokat kell elkészíteni.
 
-1. Farm osztály:
+### 1. Farm osztály:
 
 ● A farmnak egy téglalap alakú területet kell szimulálnia, amelyet falak vesznek körül, kivéve néhány kaput, ahol a juhok el tudnak menekülni. A terület egy mátrix, amelynek minden egyes mezője más-más típusú lehet: üres mező, fal, kapu, pásztorkutya, juh. (Az Object használata megfelelő a mátrix mezőinek statikus típusához.)
 
