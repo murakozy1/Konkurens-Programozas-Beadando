@@ -10,9 +10,13 @@ A következő osztályokat kell elkészíteni.
 1. Farm osztály:
 
 ● A farmnak egy téglalap alakú területet kell szimulálnia, amelyet falak vesznek körül, kivéve néhány kaput, ahol a juhok el tudnak menekülni. A terület egy mátrix, amelynek minden egyes mezője más-más típusú lehet: üres mező, fal, kapu, pásztorkutya, juh. (Az Object használata megfelelő a mátrix mezőinek statikus típusához.)
+
 ● A farm hossza és szélessége is a három valamelyik többszörösénél kettővel nagyobb szám, alapértelmezett érték mindkét esetben 14. A terület a falakon belül három egyenlő zónára van osztva mindkét dimenzió mentén, vagyis összesen kilencre.
+
 ● Mind a négy fal mentén van egy-egy kapu, véletlenszerű pozícióban, de semmiképpen nem a sarokban.
+
 ● Alapértelmezésként 10 juhot és 5 kutyát indítunk.
+
 2. Juh osztály:
 
 ● Minden juh saját szálon fut, a szál neve (és a toString() által visszaadott érték) egy nagybetű legyen.
