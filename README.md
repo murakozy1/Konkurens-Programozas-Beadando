@@ -32,6 +32,7 @@ A következő osztályokat kell elkészíteni.
 ● Az irány nem lehet mindkét dimenzió mentén 0, vagyis a juhnak mozognia kell mindenképpen, hacsak nem ütközne valamibe a mozgás során.
 
 ● Ha egy juh egy kapu mezőre lép, elszökik, ezzel vége a szimulációnak.
+
 3. Kutya osztály
 
 ● Minden kutya saját szálon fut, a szál neve (és a toString() által visszaadott érték) egy szám legyen.
