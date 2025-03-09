@@ -20,11 +20,17 @@ A következő osztályokat kell elkészíteni.
 2. Juh osztály:
 
 ● Minden juh saját szálon fut, a szál neve (és a toString() által visszaadott érték) egy nagybetű legyen.
+
 ● A juhok a középső kilencedben kezdenek.
+
 ● Minden két mozgás között egy adott ideig (alapértelmezett érték 200 ms) várnak.
+
 ● A juhok érzékelik a kutyák jelenlétét a közvetlen szomszédos mezőkön, és ennek hatására ellentétes irányba indulnak el: ha például a vízszintes dimenzió mentén a három szomszédos mező valamelyikében kutya van, akkor a juh ezen dimenzió mentén a másik irányba indul. Ugyanez igaz a függőleges dimenzióra is.
+
 ● Amelyik dimenzió mentén nem érzékelnek kutyát a szomszédos mezőben, véletlenszerűen választják ki a mozgásuk irányát.
+
 ● Az irány nem lehet mindkét dimenzió mentén 0, vagyis a juhnak mozognia kell mindenképpen, hacsak nem ütközne valamibe a mozgás során.
+
 ● Ha egy juh egy kapu mezőre lép, elszökik, ezzel vége a szimulációnak.
 3. Kutya osztály
 
